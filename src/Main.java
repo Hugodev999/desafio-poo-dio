@@ -1,3 +1,4 @@
+@@ -1,63 +1,87 @@
 @@ -1,22 +1,25 @@
 @@ -1,12 +1,16 @@
 @@ -1,12 +1,11 @@
@@ -28,6 +29,9 @@ public class Main {
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
+        mentoria.setData(LocalDate.now());
+
+        /*System.out.println(curso1);
 @@ -26,38 +29,56 @@ public static void main(String[] args) {
         System.out.println(curso2);
         System.out.println(mentoria);*/
