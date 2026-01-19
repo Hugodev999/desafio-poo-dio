@@ -1,3 +1,4 @@
+@@ -1,22 +1,25 @@
 @@ -1,12 +1,16 @@
 @@ -1,12 +1,11 @@
 import br.com.dio.desafio.dominio.Bootcamp;
@@ -15,6 +16,10 @@ public class Main {
         Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
         curso1.setDescricao("descrição curso java");
+        curso1.setCargaHoraria(8);
+
+        Curso curso2 = new Curso();
+        curso2.setTitulo("curso js");
 @@ -17,47 +21,65 @@ public static void main(String[] args) {
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
@@ -23,9 +28,7 @@ public class Main {
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
-        mentoria.setData(LocalDate.now());
-
-        /*System.out.println(curso1);
+@@ -26,38 +29,56 @@ public static void main(String[] args) {
         System.out.println(curso2);
         System.out.println(mentoria);*/
 
