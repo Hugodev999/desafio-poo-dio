@@ -15,6 +15,7 @@ public class Main {
         curso1.setTitulo("curso java");
         curso1.setDescricao("descrição curso java");
         curso1.setCargaHoraria(8);
+
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
         curso2.setDescricao("descrição curso js");
@@ -25,7 +26,6 @@ public class Main {
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
-
         /*System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);*/
